@@ -4,6 +4,7 @@
 
 ## 样例
 对面相进行预测
+
 <img width="523" alt="image" src="https://github.com/qjzcy/Visualglm-image-to-text/assets/19749009/96a07061-90ac-4d3d-8b0e-39976da7564a">
 
 <img width="1303" alt="image" src="https://github.com/qjzcy/Visualglm-image-to-text/assets/19749009/634f2c7c-2209-4c70-9f84-b1dde3dda431">
@@ -27,8 +28,11 @@ pip install --no-deps "SwissArmyTransformer>=0.3.6"
 
 ### 模型微调
 1，需要在checkpints/300目录下下载mp_rank_00_model_states.pt文件，获取途径如下
+
 wget https://huggingface.co/wangrongsheng/XrayGLM-300/resolve/main/300/mp_rank_00_model_states.pt
+
 2，visualglm-6b 文件下载路径如下
+
 [https://huggingface.co/THUDM/visualglm-6b/tree/main]
 
 然后执行
@@ -36,6 +40,7 @@ bash  finetune_visualglm.sh
 
 ### 模型预测
 原模型：python predict.py
+
 fintune后模型：python predict_lora.py
 
 ##注意文件里路径都需要注意做相应调整，改到自己目录下。
