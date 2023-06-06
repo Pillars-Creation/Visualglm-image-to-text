@@ -7,6 +7,7 @@
 
 <img width="523" alt="image" src="https://github.com/qjzcy/Visualglm-image-to-text/assets/19749009/96a07061-90ac-4d3d-8b0e-39976da7564a">
 
+
 <img width="1303" alt="image" src="https://github.com/qjzcy/Visualglm-image-to-text/assets/19749009/634f2c7c-2209-4c70-9f84-b1dde3dda431">
 
 
