@@ -45,9 +45,9 @@ wget https://huggingface.co/wangrongsheng/XrayGLM-300/resolve/main/300/mp_rank_0
 bash  finetune_visualglm.sh
 
 ### 模型预测
-原模型：python predict.py
+使用原模型：python predict.py
 
-fintune后模型：python predict_lora.py
+使用finetune后模型：python predict_lora.py
 
 ##注意文件里路径都需要注意做相应调整，改到自己目录下。
 
