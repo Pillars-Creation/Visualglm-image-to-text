@@ -1,6 +1,8 @@
 # Visualglm-image-to-text
 ##介绍
-使用了清华的Visualglm语言模型进行lora finetune，做了个简单到面相预测，补充了训练需要的一些文件，以及预测文件。
+使用了清华的Visualglm语言模型进行lora finetune，做了个简单的面相预测，
+补充了训练需要的一些文件，补全训练缺少latest等文件问题
+补充一些训练和预测代码。
 
 ## 样例
 对面相进行预测
